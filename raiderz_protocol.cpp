@@ -33,6 +33,7 @@ C(MC_COMM_REQUEST_ACCOUNT_CHAR_LIST,	MCDT_MACHINE2MACHINE, MCF_C2S, "Request Acc
 
 	C(MC_CHAR_GAMESTART,					MCDT_MACHINE2MACHINE, MCF_C2S, "Game Start")
 											P(MPT_INT,	"nFieldID")		// Ã³À½ ½ÃÀÛÇÏ±â ¿øÇÏ´Â ÇÊµå ID	<- ¼­ºñ½ºµÇ¸é »èÁ¦µÇ¾î¾ß ÇÑ´Ù.
+											P(MPT_INT,	"nCharacterID")		// Push when login
 											P(MPT_VEC,	"vPos")			// Ã³À½ ½ÃÀÛÇÏ±â ¿øÇÏ´Â À§Ä¡ <- ¼­ºñ½ºµÇ¸é »èÁ¦µÇ¾î¾ß ÇÑ´Ù.
 											
 	C(MC_CHAR_MYINFO,						MCDT_MACHINE2MACHINE, MCF_S2C, "My Info")
